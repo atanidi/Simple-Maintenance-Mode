@@ -12,3 +12,11 @@ if (!is_user_logged_in())
 {
     exit("Maintenance Mode is activated!");
 }
+
+class SimpleMaintenance
+{
+    function __construct()
+    {
+        //here's some codes
+    }
+}
